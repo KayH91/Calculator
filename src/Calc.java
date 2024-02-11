@@ -10,7 +10,7 @@ class Main {
         String op = parts[1];
 
         if (a < 1 || a > 10 || b < 1 || b > 10) {
-            throw new IllegalArgumentException("Числа должны быть в диапазоне от 1 до 10");
+            throw new IllegalArgumentException("Числа должны быть в диапазоне от 0 до 10");
         }
 
         int result;
